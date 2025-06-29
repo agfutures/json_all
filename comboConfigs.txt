@@ -1,0 +1,36 @@
+{
+      "Corn_Wasde_World": {
+        jsonUrl: "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Corn.json",
+        visuals: {
+          Visual1: {
+            filters: [{ key: "Attribute", field: "Attribute", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeChart"]
+          },
+          Visual2: {
+            filters: [{ key: "Attribute", field: "Attribute", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeTable"]
+          },
+          Visual3: {
+            filters: [{ key: "ReleaseDate", field: "ReleaseDate", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeGlobal"]
+          }
+        }
+      },
+      "Soybeans_Wasde_World": {
+        jsonUrl: "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean.json",
+        visuals: {
+          Visual1: {
+            filters: [{ key: "Attribute", field: "Attribute", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeChart"]
+          },
+          Visual2: {
+            filters: [{ key: "Attribute", field: "Attribute", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeTable"]
+          },
+          Visual3: {
+            filters: [{ key: "ReleaseDate", field: "ReleaseDate", type: "multiselect", defaultAll: true }],
+            charts: ["WasdeGlobal"]
+          }
+        }
+      }
+    };
