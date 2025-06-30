@@ -4,15 +4,15 @@
     "visuals": {
       "WasdeChart": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeChart"]
+        "viz": ["WasdeChart"]
       },
       "WasdeTable": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
-        "tables": ["WasdeTable"]
+        "viz": ["WasdeTable"]
       },
       "Visual3": {
         "filters": [{ "key": "ReleaseDate", "field": "ReleaseDate", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeGlobal"]
+        "viz": ["WasdeGlobal"]
       }
     }
   },
@@ -21,15 +21,15 @@
     "visuals": {
       "Visual1": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeChart"]
+        "viz": ["WasdeChart"]
       },
       "Visual2": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeTable"]
+        "viz": ["WasdeTable"]
       },
       "Visual3": {
         "filters": [{ "key": "ReleaseDate", "field": "ReleaseDate", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeGlobal"]
+        "viz": ["WasdeGlobal"]
       }
     }
   }
