@@ -6,7 +6,7 @@
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
         "charts": ["WasdeChart"]
       },
-      "Visual2": {
+      "WasdeTable": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
         "charts": ["WasdeTable"]
       },
