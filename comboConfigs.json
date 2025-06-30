@@ -11,7 +11,7 @@
       },
       "WasdeTable": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true },
-                    { "key": "MarketYear", "field": "MarketYear", "type": "multiselect", "defaultAll": true },
+                    { "key": "MarketYear", "field": "MarketYear", "type": "select", "defaultAll": true },
                     { "key": "Region", "field": "Region", "type": "multiselect", "default": "United States" }
                   ], 
         "viz": ["WasdeTable"]
