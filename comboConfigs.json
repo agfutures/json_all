@@ -25,12 +25,18 @@
   "Soybeans_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean.json",
     "visuals": {
-      "Visual1": {
-        "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
+      "WasdeChart": {
+        "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true },
+                    { "key": "MarketYear", "field": "MarketYear", "type": "multiselect", "defaultAll": true },
+                    { "key": "Region", "field": "Region", "type": "multiselect", "default": "United States" }
+                  ],
         "viz": ["WasdeChart"]
       },
-      "Visual2": {
-        "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
+      "WasdeTable": {
+        "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true },
+                    { "key": "MarketYear", "field": "MarketYear", "type": "select", "defaultAll": true },
+                    { "key": "Region", "field": "Region", "type": "multiselect", "default": "United States" }
+                  ], 
         "viz": ["WasdeTable"]
       },
       "Visual3": {
@@ -38,5 +44,5 @@
         "viz": ["WasdeGlobal"]
       }
     }
-  }
+  },
 }
