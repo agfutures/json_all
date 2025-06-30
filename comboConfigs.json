@@ -8,7 +8,7 @@
       },
       "WasdeTable": {
         "filters": [{ "key": "Attribute", "field": "Attribute", "type": "multiselect", "defaultAll": true }],
-        "charts": ["WasdeTable"]
+        "tables": ["WasdeTable"]
       },
       "Visual3": {
         "filters": [{ "key": "ReleaseDate", "field": "ReleaseDate", "type": "multiselect", "defaultAll": true }],
