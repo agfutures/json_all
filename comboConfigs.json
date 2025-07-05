@@ -10,7 +10,7 @@
         ],
         "viz": ["WasdeChart"]
       },
-      "WasdeTable": {
+      "Data table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select",     "defaultMostRecent": true},
@@ -18,7 +18,7 @@
         ],
         "viz": ["WasdeTable"]
       },
-      "WasdeChanges": {
+      "Changes": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
@@ -27,7 +27,7 @@
         ],
         "viz": ["WasdeChanges"]
       },
-      "WasdeGlobal": {
+      "Global snapshot": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
