@@ -2,7 +2,7 @@
   "Corn_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Corn.json",
     "visuals": {
-      "History": {
+      "SND_History": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -10,7 +10,7 @@
         ],
         "viz": ["WasdeChart"]
       },
-      "Data": {
+      "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select",     "defaultMostRecent": true},
@@ -18,7 +18,7 @@
         ],
         "viz": ["WasdeTable"]
       },
-      "Changes": {
+      "Monthly_Changes": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
@@ -27,7 +27,7 @@
         ],
         "viz": ["WasdeChanges"]
       },
-      "Snapshot": {
+      "Global_snapshot": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
@@ -41,7 +41,7 @@
   "Soybeans_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean.json",
     "visuals": {
-      "WasdeChart": {
+      "SND_History": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -49,7 +49,7 @@
         ],
         "viz": ["WasdeChart"]
       },
-      "WasdeTable": {
+      "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
@@ -57,7 +57,7 @@
         ],
         "viz": ["WasdeTable"]
       },
-      "WasdeChanges": {
+      "Monthly_Changes": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
@@ -66,7 +66,124 @@
         ],
         "viz": ["WasdeChanges"]
       },
-      "WasdeGlobal": {
+      "Global_snapshot": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
+
+        ],
+        "viz": ["WasdeGlobal"]
+      }    
+    }
+  },
+  "Soybean_Meal_Wasde_World": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean%20Meal.json",
+    "visuals": {
+      "SND_History": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeChart"]
+      },
+      "Data_table": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeTable"]
+      },
+      "Monthly_Changes": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
+          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
+
+        ],
+        "viz": ["WasdeChanges"]
+      },
+      "Global_snapshot": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
+
+        ],
+        "viz": ["WasdeGlobal"]
+      }    
+    }
+  },
+  "Soybean_Oil_Wasde_World": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean%20Oil.json",
+    "visuals": {
+      "SND_History": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeChart"]
+      },
+      "Data_table": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeTable"]
+      },
+      "Monthly_Changes": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
+          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
+
+        ],
+        "viz": ["WasdeChanges"]
+      },
+      "Global_snapshot": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
+
+        ],
+        "viz": ["WasdeGlobal"]
+      }    
+    }
+  },
+  "Wheat_Wasde_World": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Wheat.json",
+    "visuals": {
+      "SND_History": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeChart"]
+      },
+      "Data_table": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeTable"]
+      },
+      "Monthly_Changes": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
+          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
+
+        ],
+        "viz": ["WasdeChanges"]
+      },
+      "Global_snapshot": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
