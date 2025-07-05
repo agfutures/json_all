@@ -29,7 +29,7 @@
       },
       "WasdeGlobal": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
 
