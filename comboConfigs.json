@@ -26,6 +26,15 @@
 
         ],
         "viz": ["WasdeChanges"]
+      },
+      "WasdeGlobal": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
+          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
+
+        ],
+        "viz": ["WasdeGlobal"]
       }
     }
   },
