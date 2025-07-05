@@ -20,7 +20,7 @@
       },
       "WasdeChanges": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
           { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
 
@@ -48,11 +48,14 @@
         ],
         "viz": ["WasdeTable"]
       },
-      "Visual3": {
+      "WasdeChanges": {
         "filters": [
-          { "key": "ReleaseDate", "field": "ReleaseDate", "type": "multiselect", "defaultAll": true }
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
+          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
+
         ],
-        "viz": ["WasdeGlobal"]
+        "viz": ["WasdeChanges"]
       }
     }
   }
