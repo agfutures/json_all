@@ -2,7 +2,7 @@
   "Corn_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Corn.json",
     "visuals": {
-      "SND_History": {
+      "History": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -10,7 +10,7 @@
         ],
         "viz": ["WasdeChart"]
       },
-      "Data_table": {
+      "Data": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "select",     "defaultMostRecent": true},
