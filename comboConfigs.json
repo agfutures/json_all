@@ -256,7 +256,7 @@
           { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
           { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
           { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" },
-          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "WINTER" }
         ],
         "viz": ["ProgressAll"]
       },
