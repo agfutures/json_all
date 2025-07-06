@@ -197,12 +197,12 @@
   "Corn_US_Progress": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL%20CLASSES.json",
     "visuals": {
-      "Progress_all": {
+      "ProgressAll": {
         "filters": [
-          { "key": "Classes", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
           { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
           { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
-          { "key": "States", "field": "state_alpha",      "type": "single", "default": "US" }
+          { "key": "States", "field": "state_alpha",      "type": "single", "default": "US" },
+          { "key": "Classes", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" }
         ],
         "viz": ["ProgressAll"]
     },
