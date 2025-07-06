@@ -247,5 +247,37 @@
         "viz": ["Data"]
       }
     }
+  },
+  "Wheat_US_Progress": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_WHEAT_ALL%20CLASSES.json",
+    "visuals": {
+      "ProgressAll": {
+        "filters": [
+          { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" },
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
+        ],
+        "viz": ["ProgressAll"]
+      },
+      "Choropleth": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "single",      "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Choropleth"]
+      },
+      "Data": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Data"]
+      }
+    }
   }
 }
