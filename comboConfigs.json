@@ -195,7 +195,7 @@
     }
   },
   "Corn_US_Progress": {
-    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL_CLASSES.json",
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL%20CLASSES.json",
     "visuals": {
       "Progress_all": {
         "filters": [
