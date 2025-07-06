@@ -2,7 +2,7 @@
   "Corn_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Corn.json",
     "visuals": {
-      "SND_History": {
+      "Historical": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -41,7 +41,7 @@
   "Soybeans_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean.json",
     "visuals": {
-      "SND_History": {
+      "Historical": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -80,7 +80,7 @@
   "Soybean_Meal_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean%20Meal.json",
     "visuals": {
-      "SND_History": {
+      "Historical": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -119,7 +119,7 @@
   "Soybean_Oil_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean%20Oil.json",
     "visuals": {
-      "SND_History": {
+      "Historical": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -158,7 +158,7 @@
   "Wheat_Wasde_World": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Wheat.json",
     "visuals": {
-      "SND_History": {
+      "Historical": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
@@ -193,5 +193,18 @@
         "viz": ["WasdeGlobal"]
       }    
     }
+  },
+  "Corn_US_Progress": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL_CLASSES.json",
+    "visuals": {
+      "Progress": {
+        "filters": [
+          { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
+          { "key": "Year",  "field": "Year",  "type": "multiselect", "defaultAll": true },
+          { "key": "State", "field": "state_alpha",      "type": "single", "default": "US" }
+        ],
+        "viz": ["Progress"]
+    }
   }
+}
 }
