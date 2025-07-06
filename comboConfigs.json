@@ -13,7 +13,7 @@
       "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",     "defaultMostRecent": true},
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
         ],
         "viz": ["WasdeTable"]
@@ -22,17 +22,15 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
-          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
-
+          { "key": "Region",      "field": "Region",      "type": "select",      "default": "United States" }
         ],
         "viz": ["WasdeChanges"]
       },
       "Global_snapshot": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
-
         ],
         "viz": ["WasdeGlobal"]
       }
@@ -52,7 +50,7 @@
       "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
         ],
         "viz": ["WasdeTable"]
@@ -61,20 +59,18 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
-          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
-
+          { "key": "Region",      "field": "Region",      "type": "select",      "default": "United States" }
         ],
         "viz": ["WasdeChanges"]
       },
       "Global_snapshot": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
-
         ],
         "viz": ["WasdeGlobal"]
-      }    
+      }
     }
   },
   "Soybean_Meal_Wasde_World": {
@@ -91,7 +87,7 @@
       "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
         ],
         "viz": ["WasdeTable"]
@@ -100,20 +96,18 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
-          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
-
+          { "key": "Region",      "field": "Region",      "type": "select",      "default": "United States" }
         ],
         "viz": ["WasdeChanges"]
       },
       "Global_snapshot": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
-
         ],
         "viz": ["WasdeGlobal"]
-      }    
+      }
     }
   },
   "Soybean_Oil_Wasde_World": {
@@ -130,7 +124,7 @@
       "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
         ],
         "viz": ["WasdeTable"]
@@ -139,20 +133,18 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
-          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
-
+          { "key": "Region",      "field": "Region",      "type": "select",      "default": "United States" }
         ],
         "viz": ["WasdeChanges"]
       },
       "Global_snapshot": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
-
         ],
         "viz": ["WasdeGlobal"]
-      }    
+      }
     }
   },
   "Wheat_Wasde_World": {
@@ -169,7 +161,7 @@
       "Data_table": {
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true  },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
         ],
         "viz": ["WasdeTable"]
@@ -178,20 +170,18 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "default": "Production" },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultCount": 5 },
-          { "key": "Region",      "field": "Region",      "type": "select", "default": "United States" }
-
+          { "key": "Region",      "field": "Region",      "type": "select",      "default": "United States" }
         ],
         "viz": ["WasdeChanges"]
       },
       "Global_snapshot": {
         "filters": [
-          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true},
-          { "key": "MarketYear",  "field": "MarketYear",  "type": "select", "defaultMostRecent": true },
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
           { "key": "Region",      "field": "Region",      "type": "multiselect", "defaultAll": true }
-
         ],
         "viz": ["WasdeGlobal"]
-      }    
+      }
     }
   },
   "Corn_US_Progress": {
@@ -199,63 +189,63 @@
     "visuals": {
       "ProgressAll": {
         "filters": [
-          { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
-          { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
-          { "key": "States", "field": "state_alpha", "type": "single", "default": "US" },
-          { "key": "Classes", "field": "class_desc", "type": "single", "default": "ALL CLASSES" }
+          { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" },
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
         ],
         "viz": ["ProgressAll"]
-    },
-    "Choropleth": {
-      "filters": [
-        { "key": "Classes", "field": "class_desc", "type": "single", "default": "ALL CLASSES" },
-        { "key": "Attributes",  "field": "unit_desc",  "type": "single", "defaultAll": true },
-        { "key": "CropYear",  "field": "year",  "type": "single", "defaultAll": true },
-        { "key": "States", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
-      ],
-      "viz": ["Choropleth"]
+      },
+      "Choropleth": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "single",      "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Choropleth"]
+      },
+      "Progress_separate": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Progress_individual"]
+      }
+    }
   },
-  "Progress_separate": {
-    "filters": [
-      { "key": "Classes", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
-      { "key": "Attributes",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true},
-      { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
-      { "key": "States", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
-    ],
-    "viz": ["Progress_individual"]
-}
-  }
-},
   "Soybeans_US_Progress": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_SOYBEANS_ALL%20CLASSES.json",
     "visuals": {
       "ProgressAll": {
         "filters": [
-          { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
-          { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
-          { "key": "States", "field": "state_alpha", "type": "single", "default": "US" },
-          { "key": "Classes", "field": "class_desc", "type": "single", "default": "ALL CLASSES" }
+          { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" },
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
         ],
         "viz": ["ProgressAll"]
-    },
-    "Choropleth": {
-      "filters": [
-        { "key": "Classes", "field": "class_desc", "type": "single", "default": "ALL CLASSES" },
-        { "key": "Attributes",  "field": "unit_desc",  "type": "single", "defaultAll": true },
-        { "key": "CropYear",  "field": "year",  "type": "single", "defaultAll": true },
-        { "key": "States", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
-      ],
-      "viz": ["Choropleth"]
-  },
-  "Progress_separate": {
-    "filters": [
-      { "key": "Classes", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
-      { "key": "Attributes",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true},
-      { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
-      { "key": "States", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
-    ],
-    "viz": ["Progress_individual"]
-}
+      },
+      "Choropleth": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "single",      "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Choropleth"]
+      },
+      "Progress_separate": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Progress_individual"]
+      }
+    }
   }
-}
 }
