@@ -204,7 +204,7 @@
           { "key": "Year",  "field": "Year",  "type": "multiselect", "defaultAll": true },
           { "key": "State", "field": "state_alpha",      "type": "single", "default": "US" }
         ],
-        "viz": ["Progress_all"]
+        "viz": ["ProgressAll"]
     },
     "Choropleth": {
       "filters": [
