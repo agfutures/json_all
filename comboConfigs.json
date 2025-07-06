@@ -199,10 +199,10 @@
     "visuals": {
       "Progress_all": {
         "filters": [
-          { "key": "Class", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
+          { "key": "Classes", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
           { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
-          { "key": "Year",  "field": "Year",  "type": "multiselect", "defaultAll": true },
-          { "key": "State", "field": "state_alpha",      "type": "single", "default": "US" }
+          { "key": "CropYear",  "field": "year",  "type": "multiselect", "defaultAll": true },
+          { "key": "States", "field": "state_alpha",      "type": "single", "default": "US" }
         ],
         "viz": ["ProgressAll"]
     },
