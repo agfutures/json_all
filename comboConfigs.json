@@ -205,14 +205,14 @@
         ],
         "viz": ["Choropleth"]
       },
-      "Progress_separate": {
+      "Data": {
         "filters": [
           { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
           { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
           { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
           { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
         ],
-        "viz": ["Progress_individual"]
+        "viz": ["Data"]
       }
     }
   },
@@ -237,14 +237,14 @@
         ],
         "viz": ["Choropleth"]
       },
-      "Progress_separate": {
+      "Data": {
         "filters": [
           { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
           { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
           { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
           { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
         ],
-        "viz": ["Progress_individual"]
+        "viz": ["Data"]
       }
     }
   }
