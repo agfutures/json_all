@@ -197,14 +197,33 @@
   "Corn_US_Progress": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL_CLASSES.json",
     "visuals": {
-      "Progress": {
+      "Progress_all": {
         "filters": [
+          { "key": "Class", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
           { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true },
           { "key": "Year",  "field": "Year",  "type": "multiselect", "defaultAll": true },
           { "key": "State", "field": "state_alpha",      "type": "single", "default": "US" }
         ],
-        "viz": ["Progress"]
-    }
+        "viz": ["Progress_all"]
+    },
+    "Choropleth": {
+      "filters": [
+        { "key": "Class", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
+        { "key": "Attribute",  "field": "unit_desc",  "type": "single", "defaultAll": true },
+        { "key": "Year",  "field": "Year",  "type": "single", "defaultAll": true },
+        { "key": "State", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
+      ],
+      "viz": ["Choropleth"]
+  },
+  "Progress_separate": {
+    "filters": [
+      { "key": "Class", "field": "class_desc",      "type": "single", "default": "ALL CLASSES" },
+      { "key": "Attribute",  "field": "unit_desc",  "type": "multiselect", "defaultAll": true},
+      { "key": "Year",  "field": "Year",  "type": "multiselect", "defaultAll": true },
+      { "key": "State", "field": "state_alpha",      "type": "multiselect", "defaultAll": true }
+    ],
+    "viz": ["Progress_individual"]
+}
   }
 }
 }
