@@ -249,7 +249,7 @@
     }
   },
   "Wheat_US_Progress": {
-    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_WHEAT_ALL%20CLASSES.json",
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_WHEAT_SPRING%2C%20(EXCL%20DURUM).json",
     "visuals": {
       "ProgressAll": {
         "filters": [
