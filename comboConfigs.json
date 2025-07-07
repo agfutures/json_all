@@ -189,7 +189,7 @@
     "visuals": {
       "ProgressAll": {
         "filters": [
-          { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "Attribute", "field": "unit_desc",    "type": "multiselect", "defaultAll": true  },
           { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
           { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" },
           { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
@@ -198,10 +198,10 @@
       },
       "Choropleth": {
         "filters": [
-          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
-          { "key": "Attributes", "field": "unit_desc",    "type": "single",      "defaultAll": true },
-          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultAll": true },
-          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+          { "key": "Attributes", "field": "unit_desc",    "type": "single",      "default": "PCT PLANTED" },
+          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultMostRecent": true },
+          { "key": "Week",       "field": "week_ending",  "type": "single",      "defaultMostRecent": true },
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
         ],
         "viz": ["Choropleth"]
       },
