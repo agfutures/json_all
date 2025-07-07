@@ -279,5 +279,36 @@
         "viz": ["Data"]
       }
     }
+  },
+  "Corn_US_Condition": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/condition_CORN.json",
+    "visuals": {
+      "Condition": {
+        "filters": [
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "single",      "default": "US" }
+        ],
+        "viz": ["Condition"]
+      },
+      "Choropleth": {
+        "filters": [
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "default": ["PCT GOOD","PCT EXCELLENT"] },
+          { "key": "CropYear",   "field": "year",         "type": "single",      "defaultMostRecent": true },
+          { "key": "Week",       "field": "week_ending",  "type": "single",      "defaultMostRecent": true },
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
+        ],
+        "viz": ["Choropleth"]
+      },
+      "Data": {
+        "filters": [
+          { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" },
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "defaultAll": true },
+          { "key": "CropYear",   "field": "year",         "type": "multiselect", "defaultAll": true },
+          { "key": "States",     "field": "state_alpha",  "type": "multiselect", "defaultAll": true }
+        ],
+        "viz": ["Data"]
+      }
+    }
   }
 }
