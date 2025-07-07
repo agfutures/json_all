@@ -185,7 +185,7 @@
     }
   },
   "Corn_US_Progress": {
-    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN_ALL%20CLASSES.json",
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN.json",
     "visuals": {
       "ProgressAll": {
         "filters": [
@@ -217,7 +217,7 @@
     }
   },
   "Soybeans_US_Progress": {
-    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_SOYBEANS_ALL%20CLASSES.json",
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_SOYBEANS.json",
     "visuals": {
       "ProgressAll": {
         "filters": [
@@ -249,7 +249,7 @@
     }
   },
   "Wheat_US_Progress": {
-    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_WHEAT_SPRING%2C%20(EXCL%20DURUM).json",
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_WHEAT.json",
     "visuals": {
       "ProgressAll": {
         "filters": [
