@@ -285,7 +285,7 @@
     "visuals": {
       "Choropleth": {
         "filters": [
-          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "default": ["PCT GOOD","PCT EXCELLENT"] },
+          { "key": "Attributes", "field": "unit_desc",    "type": "multiselect", "default": ["PCT GOOD"] },
           { "key": "CropYear",   "field": "year",         "type": "single",      "defaultMostRecent": true },
           { "key": "Week",       "field": "week_ending",  "type": "single",      "defaultMostRecent": true },
           { "key": "Classes",    "field": "class_desc",   "type": "single",      "default": "ALL CLASSES" }
