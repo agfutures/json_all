@@ -205,6 +205,27 @@
       }
     }
   },
+  "Soybeans_Wasde_US": {
+    "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean_US.json",
+    "visuals": {
+      "Historical": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeChart"]
+      },
+      "Data_table": {
+        "filters": [
+          { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
+          { "key": "MarketYear",  "field": "MarketYear",  "type": "select",      "defaultMostRecent": true },
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+        ],
+        "viz": ["WasdeTable"]
+      }
+    }
+  },
   "Corn_US_Progress": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/progress_CORN.json",
     "visuals": {
