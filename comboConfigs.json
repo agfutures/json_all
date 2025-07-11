@@ -205,7 +205,7 @@
       }
     }
   },
-  "Soybeans_Wasde_US": {
+  "Soybean_Wasde_US": {
     "jsonUrl": "https://raw.githubusercontent.com/agfutures/json_all/main/wasde_Soybean_US.json",
     "visuals": {
       "Historical": {
