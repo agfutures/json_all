@@ -191,7 +191,8 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
-          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" },
+          { "key": "Commodity",   "field": "Commodity",   "type": "multiselect", "default": "Corn" }
         ],
         "viz": ["WasdeChart"]
       },
@@ -213,7 +214,8 @@
         "filters": [
           { "key": "Attribute",  "field": "Attribute",  "type": "multiselect", "defaultAll": true },
           { "key": "MarketYear",  "field": "MarketYear",  "type": "multiselect", "defaultAll": true },
-          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" }
+          { "key": "Region",      "field": "Region",      "type": "multiselect", "default": "United States" },
+          { "key": "Commodity",   "field": "Commodity",   "type": "multiselect", "default" :"Oilseed, Soybean" }
         ],
         "viz": ["WasdeChart"]
       },
